@@ -22,7 +22,7 @@ int fib(int* arr, int n)
 
 int* innitialize(int n)
 {
-	if (n < 2)
+	if (n < 1)
 	{
 		return NULL;
 	}
@@ -43,11 +43,17 @@ int main()
 	int n;
 	printf("Give me a n:");
 	scanf("%d", &n);
+	system("cls");
 
 	int* arr = innitialize(n);
+	if (arr == NULL)
+	{
+		printf("Invalid input. \nTerminated...\n\n");
+		return 0;	//	Customize this value to your needs.
+	}
+
 	int answer = fib(arr, n);
 
-	system("cls");
 	printf("The answer for Fib(%d) is: %d\n\n", n, answer);
 
 	system("pause");
