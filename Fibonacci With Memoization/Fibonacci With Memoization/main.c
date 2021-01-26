@@ -20,7 +20,7 @@ int fib(int* arr, int n)
 	return arr[n - 1] + arr[n - 2];
 }
 
-int* innitialize(int n)
+int* initialize(int n)
 {
 	if (n < 1)
 	{
@@ -45,7 +45,7 @@ int main()
 	scanf("%d", &n);
 	system("cls");
 
-	int* arr = innitialize(n);
+	int* arr = initialize(n);
 	if (arr == NULL)
 	{
 		printf("Invalid input. \nTerminated...\n\n");
