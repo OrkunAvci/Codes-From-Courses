@@ -131,8 +131,6 @@ vector<T> merge_sort(vector<T> &v, unsigned int low, unsigned int high)
 	}
 }
 
-//	Missing list: Count, Radix, Bin/Bucket, Shell sorts.
-
 int main()
 {
 	//	Just functions, no main.
