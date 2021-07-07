@@ -1,4 +1,3 @@
-
 *.exe
-Phyton/*/venv
-Phyton/*/.idea
+Python/*/venv
+Python/*/.idea
