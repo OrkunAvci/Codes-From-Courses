@@ -1,3 +1,4 @@
 
 *.exe
 Phyton/*/venv
+Phyton/*/.idea
