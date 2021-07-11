@@ -1,3 +1,4 @@
 *.exe
+*.pyc
 Python/*/venv
 Python/*/.idea
